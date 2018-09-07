@@ -6,7 +6,10 @@
     <groupId>org.bei</groupId>
     <artifactId>flower</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>demo</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <name>flower</name>
     <description>This is my project</description>
@@ -35,6 +38,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
